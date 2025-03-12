@@ -1,0 +1,17 @@
+show databases;
+use BD1800225117;
+show tables;
+create table exemplo (nome VARCHAR(100), RA INT primary KEY, CURSO Varchar(100));
+show tables;
+insert into exemplo (nome,RA, CURSO) Values('joao',250052,'engenharia de software');
+select * from exemplo;
+delete from exemplo where RA = 250052;
+select * from exemplo;
+create table treinos_lep (esporte VARCHAR(100), horario VARCHAR(100), onde VARCHAR(100), ID Int primary KEY);
+show tables;
+insert into treinos_lep (esporte,horario,onde,ID) values('Handbol', '17:30','Quadra Externa',01);
+show tables;
+select * from treinos_lep;
+insert into treinos_lep (esporte,horario,onde,ID) values('Basquete', '18:30','Quadra Interna',02);
+select * from treinos_lep;
+show tables;
